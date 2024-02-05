@@ -1,0 +1,91 @@
+nav {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+hr{
+    border-color: rgba(189, 185, 185, 0.349);
+}
+
+a{
+    color: black;
+}
+
+
+.beer-card{
+    display: flex;
+    padding: 50px;
+}
+
+li{
+    list-style: none;
+}
+
+h2{
+    color: gray;
+}
+
+button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+form {
+    max-width: 400px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-style{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; 
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.images{
+    width: 100%
+}
+
+.text-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph-home{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%; 
+    margin-top: 20px;
+}
+
